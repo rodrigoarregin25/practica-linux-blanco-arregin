@@ -1,0 +1,26 @@
+========== VERIFICACIÓN DE ARCHIVOS - BLANCO ==========
+Estructura de directorios creada:
+/mnt/lvm_storage_blanco
+/mnt/lvm_storage_blanco/respaldos
+/mnt/lvm_storage_ronderos/lost+found
+/mnt/lvm_storage_blanco/temporal
+/mnt/lvm_storage_blanco/proyectos
+/mnt/lvm_storage_blanco/proyectos/archivados
+/mnt/lvm_storage_blanco/proyectos/activos
+Archivos en cada directorio:
+-rw-r--r-- 1 root root 27 Nov 30 23:36 /mnt/lvm_storage_blanco/respaldos/documento_10.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:36 /mnt/lvm_storage_blanco/respaldos/documento_09.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_blanco/temporal/documento_05.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_blanco/temporal/documento_03.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_blanco/temporal/documento_02.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_blanco/temporal/documento_04.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_blanco/temporal/documento_01.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_blanco/proyectos/archivados/documento_07.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_blanco/proyectos/archivados/documento_08.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_blanco/proyectos/archivados/documento_06.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:36 /mnt/lvm_storage_blanco/proyectos/activos/documento_05.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:36 /mnt/lvm_storage_blanco/proyectos/activos/documento_03.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:36 /mnt/lvm_storage_blanco/proyectos/activos/documento_02.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:36 /mnt/lvm_storage_blanco/proyectos/activos/documento_04.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:36 /mnt/lvm_storage_blanco/proyectos/activos/documento_01.txt
+

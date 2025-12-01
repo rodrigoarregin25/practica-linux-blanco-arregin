@@ -612,19 +612,19 @@ El servidor quedó accesible desde cualquier dispositivo en la red local:
 
 **Problema:** `docker-compose up -d` fallaba con errores de sintaxis.
 
-**Solución:** El comando `docker-compose config` fue clave para validar la sintaxis del YAML antes de intentar levantar los servicios. ✅
+**Solución:** El comando `docker-compose config` fue clave para validar la sintaxis del YAML antes de intentar levantar los servicios. 
 
 ### Prometheus Targets DOWN 🔴
 
 **Problema:** Algunos targets aparecían caídos en Prometheus.
 
-**Solución:** Entender que no todos los servicios exponen métricas por defecto. Nginx necesita un exporter adicional que no instalamos. ✅
+**Solución:** Entender que no todos los servicios exponen métricas por defecto. Nginx necesita un exporter adicional que no instalamos. 
 
 ### Permisos en LVM 🔒
 
 **Problema:** Algunos comandos requerían `sudo` y no quedaba claro cuándo usarlo.
 
-**Solución:** Cualquier operación que modifique el sistema o acceda a dispositivos de bloque necesita privilegios root. ✅
+**Solución:** Cualquier operación que modifique el sistema o acceda a dispositivos de bloque necesita privilegios root. 
 
 ---
 

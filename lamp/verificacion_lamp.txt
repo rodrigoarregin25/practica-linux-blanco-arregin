@@ -44,9 +44,9 @@ Dec 01 04:52:46 linux-practice systemd[1]: Starting MySQL Community Server...
 Dec 01 04:52:48 linux-practice systemd[1]: Started MySQL Community Server.
 
 === PUERTOS EN ESCUCHA ===
-tcp        0      0 127.0.0.1:33060         0.0.0.0:*               LISTEN      4615/mysqld         
-tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      4615/mysqld         
-tcp6       0      0 :::80                   :::*                    LISTEN      12215/apache2       
+tcp        0      0 127.0.0.1:33060         0.0.0.0:*               LISTEN      4615/mysqld
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      4615/mysqld
+tcp6       0      0 :::80                   :::*                    LISTEN      12215/apache2
 
 === ARCHIVOS WEB CREADOS ===
 total 36
@@ -55,4 +55,62 @@ drwxr-xr-x 3 root     root      4096 Dec  1 04:49 ..
 -rwxr-xr-x 1 www-data www-data  6305 Dec  1 04:56 index.html
 -rwxr-xr-x 1 www-data www-data    48 Dec  1 04:57 info.php
 -rwxr-xr-x 1 www-data www-data   451 Dec  1 04:57 test_db.php
+
+========== VERIFICACIÓN SERVIDOR LAMP - ARREGIN ==========
+=== VERSIONES INSTALADAS ===
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2025-08-11T12:10:10
+mysql  Ver 8.0.44-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+PHP 8.1.2-1ubuntu2.22 (cli) (built: Jul 15 2025 12:11:22) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.1.2, Copyright (c) Zend Technologies
+    with Zend OPcache v8.1.2-1ubuntu2.22, Copyright (c), by Zend Technologies
+
+=== ESTADO DE SERVICIOS ===
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2025-12-01 14:10:06 UTC; 5min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+   Main PID: 22922 (apache2)
+      Tasks: 6 (limit: 2307)
+     Memory: 10.4M
+        CPU: 144ms
+     CGroup: /system.slice/apache2.service
+             ├─22922 /usr/sbin/apache2 -k start
+             ├─22927 /usr/sbin/apache2 -k start
+             ├─22928 /usr/sbin/apache2 -k start
+             ├─22929 /usr/sbin/apache2 -k start
+             ├─22930 /usr/sbin/apache2 -k start
+             └─22932 /usr/sbin/apache2 -k start
+
+Dec 01 14:10:06 linux-practice systemd[1]: Starting The Apache HTTP Server...
+Dec 01 14:10:06 linux-practice apachectl[22921]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.2.1. Set the 'ServerName' directive globally to suppress this message
+Dec 01 14:10:06 linux-practice systemd[1]: Started The Apache HTTP Server.
+
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2025-12-01 14:07:01 UTC; 8min ago
+   Main PID: 15300 (mysqld)
+     Status: "Server is operational"
+      Tasks: 39 (limit: 2307)
+     Memory: 362.7M
+        CPU: 11.555s
+     CGroup: /system.slice/mysql.service
+             └─15300 /usr/sbin/mysqld
+
+Dec 01 14:06:58 linux-practice systemd[1]: Starting MySQL Community Server...
+Dec 01 14:07:01 linux-practice systemd[1]: Started MySQL Community Server.
+
+=== PUERTOS EN ESCUCHA ===
+tcp        0      0 127.0.0.1:33060         0.0.0.0:*               LISTEN      15300/mysqld
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      15300/mysqld
+tcp6       0      0 :::80                   :::*                    LISTEN      22922/apache2
+
+=== ARCHIVOS WEB CREADOS ===
+total 24
+drwxr-xr-x 2 www-data www-data 4096 Dec  1 14:12 .
+drwxr-xr-x 3 root     root     4096 Dec  1 14:11 ..
+-rwxr-xr-x 1 www-data www-data 6305 Dec  1 14:11 index.html
+-rwxr-xr-x 1 www-data www-data   48 Dec  1 14:11 info.php
+-rwxr-xr-x 1 www-data www-data  451 Dec  1 14:12 test_db.php
 

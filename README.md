@@ -277,7 +277,7 @@ El `770` significa que el dueño y el grupo tienen permisos completos (rwx), per
 
 ---
 
-### Ejercicio 4: LVM en Acción 💽
+### Ejercicio 4: Gestión de LVM 💽
 
 **Objetivo:** Aprender a gestionar almacenamiento con Logical Volume Manager.
 
@@ -400,6 +400,8 @@ Levantamos 6 contenedores:
 
 ##### Error #1: Inconsistencia en nombres de redes
 
+![alt text](https://i.imgur.com/ZK5HC3Y.png)
+
 **Problema encontrado:**
 ```yaml
 services:
@@ -421,6 +423,8 @@ docker-compose up -d   # Falló al intentar crear los servicios
 
 ##### Error #2: Volúmenes mal declarados
 
+![alt text](https://i.imgur.com/fKBwLMr.png)
+
 **Problema encontrado:**
 ```yaml
 services:
@@ -438,6 +442,8 @@ Los logs de Grafana mostraban errores de permisos y el volumen no se creaba corr
 **Solución:** Cambiar `grafana-data` por `grafana-storage` en la declaración del servicio. ✅
 
 ##### Error #3: Prometheus targets incorrectos
+
+![alt text](https://i.imgur.com/q3rT7LO.png)
 
 **Problema encontrado:** 
 En `prometheus.yml` había un job configurado para scrapear métricas de Nginx en el puerto 9113, pero Nginx Alpine no expone métricas por defecto.

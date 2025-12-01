@@ -24,3 +24,29 @@ Archivos en cada directorio:
 -rw-r--r-- 1 root root 27 Nov 30 23:36 /mnt/lvm_storage_blanco/proyectos/activos/documento_04.txt
 -rw-r--r-- 1 root root 27 Nov 30 23:36 /mnt/lvm_storage_blanco/proyectos/activos/documento_01.txt
 
+========== VERIFICACIÓN DE ARCHIVOS - ARREGIN ==========
+Estructura de directorios creada:
+/mnt/lvm_storage_arregin
+/mnt/lvm_storage_arregin/respaldos
+/mnt/lvm_storage_arregin/temporal
+/mnt/lvm_storage_arregin/proyectos
+/mnt/lvm_storage_arregin/proyectos/activos
+/mnt/lvm_storage_arregin/proyectos/archivados
+/mnt/lvm_storage_arregin/lost+found
+Archivos en cada directorio:
+-rw-r--r-- 1 root root 27 Nov 30 23:37 /mnt/lvm_storage_arregin/respaldos/documento_10.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:37 /mnt/lvm_storage_arregin/respaldos/documento_09.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_arregin/temporal/documento_02.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_arregin/temporal/documento_05.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_arregin/temporal/documento_04.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_arregin/temporal/documento_03.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_arregin/temporal/documento_01.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:37 /mnt/lvm_storage_arregin/proyectos/activos/documento_02.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:37 /mnt/lvm_storage_arregin/proyectos/activos/documento_05.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:37 /mnt/lvm_storage_arregin/proyectos/activos/documento_04.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:37 /mnt/lvm_storage_arregin/proyectos/activos/documento_03.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:37 /mnt/lvm_storage_arregin/proyectos/activos/documento_01.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_arregin/proyectos/archivados/documento_06.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_arregin/proyectos/archivados/documento_08.txt
+-rw-r--r-- 1 root root 27 Nov 30 23:35 /mnt/lvm_storage_arregin/proyectos/archivados/documento_07.txt
+

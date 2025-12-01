@@ -19,7 +19,7 @@ services:
       - "6379:6379"
     restart: unless-stopped
     networks:
-      - monitoring-network
+      - monitoring
 
   # Servicio 3: Postgres - Base de datos
   postgres:
@@ -86,4 +86,4 @@ networks:
     driver: bridge
 
 volumes:
-  grafana-storage:
+  grafana-data:

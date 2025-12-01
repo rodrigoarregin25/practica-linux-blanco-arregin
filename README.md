@@ -677,6 +677,8 @@ Gracias al profe por siempre ensenarnos con esa buena onda que lo caracteriza, s
 ---
 
 **Equipo:** Josias Blanco y Rodrigo Arregin
+
 **Repositorio:** [practica-linux-blanco-arregin](https://github.com/usuario/practica-linux-blanco-arregin) 
+
 **Fecha:** Diciembre 2025
 
